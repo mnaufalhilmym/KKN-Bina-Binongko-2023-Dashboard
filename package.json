@@ -11,13 +11,14 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.10.5",
-    "@strapi/plugin-users-permissions": "4.10.5",
+    "@strapi/plugin-graphql": "4.10.5",
     "@strapi/plugin-i18n": "4.10.5",
+    "@strapi/plugin-users-permissions": "4.10.5",
+    "@strapi/strapi": "4.10.5",
     "pg": "8.8.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Muhammad Naufal Hilmy Makarim"
   },
   "strapi": {
     "uuid": "b6305e5d-4de1-413e-b3c4-436a1d6d89a6"

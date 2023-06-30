@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wisatas",
+  "info": {
+    "singularName": "wisata",
+    "pluralName": "wisatas",
+    "displayName": "Wisata",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string",
+      "required": true
+    },
+    "lokasi": {
+      "type": "string",
+      "required": true
+    },
+    "foto": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "deskripsi": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

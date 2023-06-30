@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industris",
+  "info": {
+    "singularName": "industri",
+    "pluralName": "industris",
+    "displayName": "Industri"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string",
+      "required": true
+    },
+    "foto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "deskripsi": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
